@@ -17,6 +17,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap_sb_admin_base_v2'
 
+gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
+
 # For setting i18n on app
 gem 'rails-i18n'
 gem 'devise'
