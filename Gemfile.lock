@@ -45,6 +45,9 @@ GEM
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
     bindex (0.5.0)
+    bootstrap_sb_admin_base_v2 (0.3.6)
+      font-awesome-rails
+      jquery-rails
     builder (3.2.3)
     byebug (10.0.2)
     coderay (1.1.2)
@@ -69,6 +72,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.23)
+    font-awesome-rails (4.7.0.4)
+      railties (>= 3.2, < 6.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (1.0.1)
@@ -184,6 +189,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
+  bootstrap_sb_admin_base_v2
   byebug
   coffee-rails (~> 4.2)
   devise
@@ -204,4 +210,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
